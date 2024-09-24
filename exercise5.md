@@ -6,10 +6,10 @@
 <img width="1440" alt="screenshot_task1" src="https://github.com/user-attachments/assets/9560ce78-2e32-43c2-b421-b8b49bdc93c1">
 
 # Task 2:
-
-    SELECT name FROM airport WHERE iso_country = (SELECT iso_country FROM country WHERE name = 'Monaco');
     
-<img width="1440" alt="screenshot_task2" src="https://github.com/user-attachments/assets/071cf956-c7e9-4c51-8c9d-76eba73f6c2b">
+    select name from airport where iso_country in(select iso_country from country where name = "Monaco");
+    
+<img width="1440" alt="screenshot_task2" src="https://github.com/user-attachments/assets/d83df947-68b6-49df-9d69-5e39dbcecaac">
 
 # Task 3:
 
